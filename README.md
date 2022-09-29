@@ -15,4 +15,4 @@ Some Images:
 ![image](https://user-images.githubusercontent.com/85806664/192984141-51a54001-4fa1-4023-9d8d-9c22d2da6a70.png)
 
 
-As of now there is some issue with Heroku deployment therefore above link may not work properly but the project is working perfect in my local system
+As of now there is some issue with Heroku deployment therefore above link may not work properly but the project is working perfect in my local system.
