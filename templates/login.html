@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/loginStyle.css')}}">
+</head>
+
+<body>
+    <div class="wrapper login">
+        <div class="container">
+            <div class="col-left">
+                <div class="login-text">
+                    <h2>Welcome!</h2>
+                    <p>Create your account.<br>For Free!</p>
+                    <a href="/register" class="btn">Register</a>
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="login-form">
+                    <h2>Login</h2>
+                    <form method="post" action="/loginValidation">
+                        <p>
+                            <label>Username/Email address<span>*</span></label>
+                            <input type="text" name="email" placeholder="Username or Email" required>
+                        </p>
+                        <p>
+                            <label>Password<span>*</span></label>
+                            <input type="password" name="password" placeholder="Password" required>
+                        </p>
+                        <p>
+                            <input type="submit" value="Sign In">
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
